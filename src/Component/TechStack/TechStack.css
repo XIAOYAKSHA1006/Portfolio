@@ -1,0 +1,22 @@
+.techstack_container{
+    height: 90vh;
+
+}
+.techstack_title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align:center;
+}
+.techstack_icon_container{
+    display: flex;
+    margin: 90px 0;
+}
+.techstack_row{
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 10px; 
+}
+.techstack_image {
+    width: 100px; /* Adjust the width as needed */
+    height: 1000px; /* Adjust the height as needed */
+}

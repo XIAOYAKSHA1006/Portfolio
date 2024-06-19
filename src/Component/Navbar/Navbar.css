@@ -1,0 +1,36 @@
+.navbar_container{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_left{
+font-size: 26px;
+font-weight: 700;
+color: aqua;
+}
+
+.profile_image {
+    width: 180px; /* Adjust size as needed */
+    height: 180px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: Round the image */
+    margin-right: 10px; /* Optional: Adjust spacing */
+}
+
+.navbar_right{
+display: flex;
+}
+
+.navbar_right > p{
+    margin-right:10px ;
+    padding: 8px 10px;
+    font-size: 20px;
+    }
+
+    .navbar_right > p:hover{
+        background-color: grey;
+        cursor: pointer;
+        border-radius: 8px;
+        }

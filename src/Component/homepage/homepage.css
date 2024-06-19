@@ -1,0 +1,142 @@
+/* .Homepage_container{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+.Homepage_left{
+    flex: 1.9;
+    padding-right: 30px;
+
+}
+.Homepage_left_h1{
+font-size: 22px;
+}
+.red_color{
+    color: red;
+}
+
+.Homepage_left_h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.Homepage_left_h3{
+    font-size: 30px;
+}
+
+.Homepage_left_description{
+    font-size: 13px;
+}
+
+.Homepage_logo{
+    height: 60px;
+    margin:15px ;
+}
+
+.homepage_left_button{
+    margin-top: 35px;
+    font-size: 19px;
+    padding: 8px 10px;
+    background-color: black;
+    color: aqua;
+    cursor: pointer;
+}
+
+.Homepage_right{
+    flex: 1.9;
+}
+.Homepage_right>img{
+    width: 100%;
+} */
+.Homepage_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    /* background-color: black; */
+    font-family: 'Arial', sans-serif;
+}
+
+.Homepage_left {
+    flex: 1;
+    padding: 20px;
+}
+
+.Homepage_left_h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+}
+
+.red {
+    color: #e63946;
+}
+
+.Homepage_left_h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #0077b6;
+    margin: 10px 0;
+}
+
+.Homepage_left_h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #555;
+}
+
+.Homepage_left_description {
+    font-size: 100px;
+    color: #666;
+    margin-top: 70px;
+    line-height: 1.6;
+}
+
+.Homepage_logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.Homepage_logo:hover {
+    transform: scale(1.2);
+}
+
+.homepage_left_button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0077b6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 20px;
+}
+
+.homepage_left_button:hover {
+    background-color: #005f8b;
+    transform: scale(1.1);
+}
+
+.Homepage_right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Homepage_right img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.Homepage_right img:hover {
+    transform: scale(1.05);
+}
